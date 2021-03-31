@@ -1,6 +1,5 @@
 import csv
 
-#original_stdout = sys.stdout
 
 with open('C:\\Users\\rsn13\\Anaconda3\\input_files\\reviewed.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
@@ -14,7 +13,6 @@ with open('C:\\Users\\rsn13\\Anaconda3\\input_files\\reviewed.csv') as csv_file:
             column_header.append(line[i])
         break
     
-#    print(column_header[0])
             
     for line in csv_reader:
         sourceFile=open('C:\\Users\\rsn13\\Anaconda3\\input_files\\final.txt', 'a')
