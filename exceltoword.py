@@ -8,8 +8,7 @@ with open('C:\\Users\\rsn13\\Anaconda3\\input_files\\reviewed.csv') as csv_file:
     column_header=[]
             
     for line in csv_reader:
-        for i in range(len(line)):
-            #print(line[i])               
+        for i in range(len(line)):              
             column_header.append(line[i])
         break
     
