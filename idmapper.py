@@ -1,5 +1,5 @@
 #The script uses panda to merge two file based on a anchor (common) column between the two file.
-# The merge type can be inner/left/right/outer. for secriptions please see https://www.geeksforgeeks.org/how-to-do-a-vlookup-in-python-using-pandas/
+# The merge type can be inner/left/right/outer. for descriptions please see https://www.geeksforgeeks.org/how-to-do-a-vlookup-in-python-using-pandas/
 
 import pandas as pd
 
