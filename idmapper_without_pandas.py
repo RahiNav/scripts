@@ -1,6 +1,6 @@
 # The script takes two csv files and maps the said column together based on the anhor(common)colum.
 # The script only workks when there is one-to-one mapping between the anchor column and said column in files
-#anchor_file1 and anchor_file2 needs to have the common column. same format. 
+#anchor_file1 and anchor_file2 needs to be the common column. same format. 
 
 import csv
 
