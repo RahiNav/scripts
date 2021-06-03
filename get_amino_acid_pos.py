@@ -9,6 +9,7 @@ Created on Thu Jun  3 18:20:54 2021
 #The script take single or multiple fasta sequences and prints the desired amino acid and the respective position in the fasta sequence
 # To match a single position add aa = 'S', for multiple amino acid residues use aa = 'S|T|K'
 #generates a space seperated file with accession, matched amino acid, position of the matched amino acid
+# Uses Biopython module.
 
 import re
 
