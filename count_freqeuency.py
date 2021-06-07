@@ -18,7 +18,6 @@ with open(infile) as file:
         else:
             frequency[item] = 1
             
-    #print(frequency)
     sort_orders = sorted(frequency.items(), key=lambda x: x[1], reverse=True)
     
     sourceFile = open(outfile,'w')
