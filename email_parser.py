@@ -1,3 +1,6 @@
+#This code parses email address from a endnote export text file. the code is written in Python 3. Code modified from https://www.tutorialspoint.com/python_text_processing/python_extract_emails_from_text.htm
+
+
 import re
 
 infile = '/Users/rsn13/Pictures/Desktop/all_proteoform_references.txt'
